@@ -9,6 +9,7 @@ pylint = "*"
 flake8 = "*"
 
 [packages]
+requests = "*"
 
 [requires]
 python_version = "3.6"
