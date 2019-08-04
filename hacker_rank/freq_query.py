@@ -51,7 +51,7 @@ def freqQuery(queries):
     return ar
 
 
-with open('hacker_rank/some.txt', 'r') as f:
+with open('hacker_rank/input_freq_query.txt', 'r') as f:
     arr = []
     for i in range(int(f.readline())):
         arr.append(tuple(int(i) for i in f.readline().rstrip().split(' ')))
@@ -63,7 +63,7 @@ with open('hacker_rank/some.txt', 'r') as f:
     print(end - start)
     # print(abc)
 
-    with open('hacker_rank/an.txt', 'r') as fi:
+    with open('hacker_rank/output_freq_query.txt', 'r') as fi:
         _rr = []
         try:
             for i in range(33246):
