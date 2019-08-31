@@ -9,7 +9,6 @@ pylint = "*"
 flake8 = "*"
 
 [packages]
-requests = "*"
 aiofiles = "*"
 aiohttp = "*"
 
